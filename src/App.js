@@ -1,11 +1,17 @@
-import "./App.css";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Work from "./components/Work";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1 className="text-3xl font-bold">Hello</h1>
-      </header>
+      <Navbar />
+      <Home />
+      <About />
+      <Skills />
+      <Work />
     </div>
   );
 }
