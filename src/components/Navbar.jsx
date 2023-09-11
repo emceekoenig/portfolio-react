@@ -11,13 +11,15 @@ const Navbar = () => {
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-gray-800 text-gray-300">
-      <div>
-        <img
-          src={Logo}
-          alt="Chelsea Koenig Logo"
-          style={{ width: "50px" }}
-        />
-      </div>
+      <Link to="home">
+        <div className="hover:cursor-pointer">
+          <img
+            src={Logo}
+            alt="Chelsea Koenig Logo"
+            style={{ width: "50px" }}
+          />
+        </div>
+      </Link>
 
       {/* menu */}
       <div>
@@ -150,12 +152,14 @@ const Navbar = () => {
       </ul>
 
       {/* Social icons*/}
-      <div className="hidden lg:flex flex fixed flex-col top-[35%] left-0">
+      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/cmkoenig/"
+              target="_blank"
+              rel="noreferrer"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -165,6 +169,8 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/emceekoenig"
+              target="_blank"
+              rel="noreferrer"
             >
               GitHub <FaGithub size={30} />
             </a>
@@ -183,6 +189,8 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://drive.google.com/file/d/1wGRDVhfpHLNXohIGRz50NOOX5lJ1KsqY/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

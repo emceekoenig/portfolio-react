@@ -28,7 +28,7 @@ const Home = () => {
               to="work"
               spy={true}
               smooth={true}
-              duration={500}
+              duration={300}
             >
               View Work
             </Link>

@@ -25,20 +25,20 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-80">
+            <div className="opacity-0 group-hover:opacity-80 duration-500">
               <span className="text-2xl font-bold text-white tracking-wider">
                 React JS Application
               </span>
 
               <div className="pt-8 text-center">
                 <a href="https://blue-lexicon.netlify.app/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:text-white hover:bg-pink-600 duration-300">
                     Demo
                   </button>
                 </a>
 
                 <a href="https://github.com/emceekoenig/dictionary-react">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:text-white hover:bg-pink-600 duration-300">
                     Code
                   </button>
                 </a>
@@ -51,19 +51,19 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-80">
+            <div className="opacity-0 group-hover:opacity-80 duration-500">
               <span className="text-2xl font-bold text-white tracking-wider">
                 React JS Application
               </span>
               <div className="pt-8 text-center">
                 <a href="https://weather-app-react-today.netlify.app/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:text-white hover:bg-pink-600 duration-300">
                     Demo
                   </button>
                 </a>
 
                 <a href="https://github.com/emceekoenig/react-weather-app">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:text-white hover:bg-pink-600 duration-300">
                     Code
                   </button>
                 </a>
@@ -76,19 +76,19 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-80">
+            <div className="opacity-0 group-hover:opacity-80 duration-500">
               <span className="text-2xl font-bold text-white tracking-wider">
                 React JS Application
               </span>
               <div className="pt-8 text-center">
                 <a href="https://world-clock-today.netlify.app/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:text-white hover:bg-pink-600 duration-300">
                     Demo
                   </button>
                 </a>
 
                 <a href="https://github.com/emceekoenig/world-clock">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:text-white hover:bg-pink-600 duration-300">
                     Code
                   </button>
                 </a>
